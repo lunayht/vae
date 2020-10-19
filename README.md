@@ -10,8 +10,10 @@ Run ```sudo sh setup.sh``` to install and setup the required packages and softwa
 ## Results
 | Number of epochs | Dataset | Test Loss | Generated Images |
 |    :-------:     |  :---:  |   :---:   | ------ |
-| 10 | MNIST | 105.23 | ![v0](vae0.gif) |
-| 50 | MNIST | 100.09 | ![v1](vae1.gif) |
+| 10 | MNIST | 105.23 | <img src="vae0.gif" width="120" height="100"/> |
+| 50 | MNIST | 100.09 | <img src="vae1.gif" width="120" height="100"/> |
+| 20 | Fashion-MNIST | 238.51 | <img src="vae2.gif" width="120" height="100"/> |
+| 100 | Fashion-MNIST |  | <img src="vae3.gif" width="100" height="100"/> | 
 
 ### Where To Go Next
 * Try with CelebA datasets
