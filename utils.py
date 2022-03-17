@@ -6,7 +6,7 @@ def save_gif(progress_images, filename):
     fig = plt.figure()
 
     ims = []
-    for i in range(len(progress_images)):
+    for i, _ in enumerate(progress_images):
         im = plt.imshow(progress_images[i], animated=True, cmap="gray")
         ims.append([im])
 
